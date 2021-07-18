@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626604515">
-  <project timestamp="1626604515">
+<coverage generated="1626604898">
+  <project timestamp="1626604898">
     <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/CreatedAt.php">
       <class name="ShooglyPeg\Date\Domain\CreatedAt" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
@@ -9,14 +9,14 @@
     </file>
     <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/Date.php">
       <class name="ShooglyPeg\Date\Domain\Date" namespace="global">
-        <metrics complexity="11" methods="10" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="11" elements="22" coveredelements="20"/>
+        <metrics complexity="11" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="22" coveredelements="22"/>
       </class>
-      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="13"/>
-      <line num="23" type="method" name="format" visibility="public" complexity="1" crap="1" count="8"/>
-      <line num="25" type="stmt" count="8"/>
-      <line num="31" type="method" name="interval" visibility="public" complexity="2" crap="2.15" count="1"/>
-      <line num="33" type="stmt" count="1"/>
-      <line num="34" type="stmt" count="0"/>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="14"/>
+      <line num="23" type="method" name="format" visibility="public" complexity="1" crap="1" count="9"/>
+      <line num="25" type="stmt" count="9"/>
+      <line num="31" type="method" name="interval" visibility="public" complexity="2" crap="2" count="2"/>
+      <line num="33" type="stmt" count="2"/>
+      <line num="34" type="stmt" count="1"/>
       <line num="37" type="stmt" count="1"/>
       <line num="43" type="method" name="age" visibility="public" complexity="1" crap="1" count="1"/>
       <line num="45" type="stmt" count="1"/>
@@ -32,7 +32,7 @@
       <line num="85" type="stmt" count="3"/>
       <line num="91" type="method" name="today" visibility="public" complexity="1" crap="1" count="1"/>
       <line num="93" type="stmt" count="1"/>
-      <metrics loc="95" ncloc="63" classes="1" methods="10" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="11" elements="22" coveredelements="20"/>
+      <metrics loc="95" ncloc="63" classes="1" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="12" elements="22" coveredelements="22"/>
     </file>
     <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/DateAndTime.php">
       <class name="ShooglyPeg\Date\Domain\DateAndTime" namespace="global">
@@ -46,8 +46,8 @@
       <class name="ShooglyPeg\Date\Domain\DateOfBirth" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
-      <line num="16" type="method" name="fromFormat" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="18" type="stmt" count="1"/>
+      <line num="16" type="method" name="fromFormat" visibility="public" complexity="1" crap="1" count="2"/>
+      <line num="18" type="stmt" count="2"/>
       <metrics loc="20" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
     <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/DeletedAt.php">
@@ -62,6 +62,6 @@
       </class>
       <metrics loc="12" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <metrics files="6" loc="169" ncloc="127" classes="3" methods="12" coveredmethods="11" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="13" elements="26" coveredelements="24"/>
+    <metrics files="6" loc="169" ncloc="127" classes="3" methods="12" coveredmethods="12" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="14" elements="26" coveredelements="26"/>
   </project>
 </coverage>
