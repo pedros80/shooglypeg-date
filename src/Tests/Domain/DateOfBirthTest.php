@@ -2,6 +2,7 @@
 
 namespace ShooglyPeg\Date\Tests\Domain;
 
+use DateInterval;
 use PHPUnit\Framework\TestCase;
 use ShooglyPeg\Date\Domain\DateOfBirth;
 
@@ -47,5 +48,20 @@ final class DateOfBirthTest extends TestCase
 
         $this->assertInstanceOf(DateOfBirth::class, $date);
         $this->assertEquals('1971-07-05', $date->date());
+    }
+
+    /**
+     * @return void
+     */
+    public function testInterval(): void
+    {
+        $date = DateOfBirth::fromFormat('5 July 1971');
+
+        $date2 = DateOfBirth::fromFormat('6 July 1971');
+
+        $interval = $date2->interval($date);
+
+        $this->assertInstanceOf(DateInterval::class, $interval);
+        $this->assertEquals(1, (int) $interval->format('%d'));
     }
 }
