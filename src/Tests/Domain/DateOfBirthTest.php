@@ -26,4 +26,15 @@ final class DateOfBirthTest extends TestCase
 
         $this->assertEquals(40, $date->age());
     }
+
+    /**
+     * @return void
+     */
+    public function testJsonSerialize(): void
+    {
+        $today = date('Y-m-d');
+        $date = DateOfBirth::today();
+
+        $this->assertEquals('"' . $today . '"', json_encode($date));
+    }
 }
