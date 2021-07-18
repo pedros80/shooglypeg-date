@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626605289">
-  <project timestamp="1626605289">
+<coverage generated="1626606381">
+  <project timestamp="1626606381">
     <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/CreatedAt.php">
       <class name="ShooglyPeg\Date\Domain\CreatedAt" namespace="global">
         <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
