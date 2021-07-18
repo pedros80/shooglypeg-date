@@ -37,4 +37,15 @@ final class DateOfBirthTest extends TestCase
 
         $this->assertEquals('"' . $today . '"', json_encode($date));
     }
+
+    /**
+     * @return void
+     */
+    public function testFromFormat(): void
+    {
+        $date = DateOfBirth::fromFormat('5 July 1971');
+
+        $this->assertInstanceOf(DateOfBirth::class, $date);
+        $this->assertEquals('1971-07-05', $date->date());
+    }
 }
