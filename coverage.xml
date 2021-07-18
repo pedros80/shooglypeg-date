@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1626603706">
+  <project timestamp="1626603706">
+    <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/CreatedAt.php">
+      <class name="ShooglyPeg\Date\Domain\CreatedAt" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="12" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/Date.php">
+      <class name="ShooglyPeg\Date\Domain\Date" namespace="global">
+        <metrics complexity="11" methods="10" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="9" elements="22" coveredelements="16"/>
+      </class>
+      <line num="17" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="11"/>
+      <line num="23" type="method" name="format" visibility="public" complexity="1" crap="1" count="6"/>
+      <line num="25" type="stmt" count="6"/>
+      <line num="31" type="method" name="interval" visibility="public" complexity="2" crap="2.15" count="1"/>
+      <line num="33" type="stmt" count="1"/>
+      <line num="34" type="stmt" count="0"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="43" type="method" name="age" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="45" type="stmt" count="1"/>
+      <line num="51" type="method" name="dateAndTime" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="53" type="stmt" count="3"/>
+      <line num="59" type="method" name="human" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="61" type="stmt" count="3"/>
+      <line num="67" type="method" name="date" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="69" type="stmt" count="3"/>
+      <line num="75" type="method" name="jsonSerialize" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="77" type="stmt" count="0"/>
+      <line num="83" type="method" name="now" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="85" type="stmt" count="3"/>
+      <line num="91" type="method" name="today" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="93" type="stmt" count="0"/>
+      <metrics loc="95" ncloc="63" classes="1" methods="10" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="12" coveredstatements="9" elements="22" coveredelements="16"/>
+    </file>
+    <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/DateAndTime.php">
+      <class name="ShooglyPeg\Date\Domain\DateAndTime" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </class>
+      <line num="14" type="method" name="jsonSerialize" visibility="public" complexity="1" crap="1" count="3"/>
+      <line num="16" type="stmt" count="3"/>
+      <metrics loc="18" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+    </file>
+    <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/DateOfBirth.php">
+      <class name="ShooglyPeg\Date\Domain\DateOfBirth" namespace="global">
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+      </class>
+      <line num="16" type="method" name="fromFormat" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="18" type="stmt" count="0"/>
+      <metrics loc="20" ncloc="16" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="0" elements="2" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/DeletedAt.php">
+      <class name="ShooglyPeg\Date\Domain\DeletedAt" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="12" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/home/runner/work/shooglypeg-date/shooglypeg-date/src/Domain/UpdatedAt.php">
+      <class name="ShooglyPeg\Date\Domain\UpdatedAt" namespace="global">
+        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </class>
+      <metrics loc="12" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="6" loc="169" ncloc="127" classes="3" methods="12" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="14" coveredstatements="10" elements="26" coveredelements="18"/>
+  </project>
+</coverage>
