@@ -2,7 +2,7 @@ name: Tests And Coverage
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   shooglypeg-date-tests:
