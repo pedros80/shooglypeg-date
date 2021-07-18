@@ -1,0 +1,38 @@
+{
+    "name": "shooglypeg/dates",
+    "description": "Date value objects for Shoogly projects",
+    "keywords": [],
+    "homepage": "https://github.com/pedros80/ShooglyPeg-Date",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Peter Somerville",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShooglyPeg\\Date\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
