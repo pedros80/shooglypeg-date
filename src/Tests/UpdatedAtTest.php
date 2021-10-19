@@ -1,9 +1,9 @@
 <?php
 
-namespace ShooglyPeg\Date\Tests\Domain;
+namespace ShooglyPeg\Date\Tests;
 
 use PHPUnit\Framework\TestCase;
-use ShooglyPeg\Date\Domain\UpdatedAt;
+use ShooglyPeg\Date\UpdatedAt;
 
 final class UpdatedAtTest extends TestCase
 {

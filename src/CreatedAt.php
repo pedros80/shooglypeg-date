@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ShooglyPeg\Date\Domain;
+namespace ShooglyPeg\Date;
 
-use ShooglyPeg\Date\Domain\DateAndTime;
+use ShooglyPeg\Date\DateAndTime;
 
 final class CreatedAt extends DateAndTime
 {

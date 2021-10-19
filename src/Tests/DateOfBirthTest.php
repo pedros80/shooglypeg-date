@@ -1,10 +1,10 @@
 <?php
 
-namespace ShooglyPeg\Date\Tests\Domain;
+namespace ShooglyPeg\Date\Tests;
 
 use DateInterval;
 use PHPUnit\Framework\TestCase;
-use ShooglyPeg\Date\Domain\DateOfBirth;
+use ShooglyPeg\Date\DateOfBirth;
 
 final class DateOfBirthTest extends TestCase
 {

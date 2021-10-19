@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace ShooglyPeg\Date\Domain;
+namespace ShooglyPeg\Date;
 
-use ShooglyPeg\Date\Domain\Date;
+use ShooglyPeg\Date\Date;
 
 abstract class DateAndTime extends Date
 {

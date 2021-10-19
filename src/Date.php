@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace ShooglyPeg\Date\Domain;
+namespace ShooglyPeg\Date;
 
 use DateInterval;
 use DateTimeImmutable;
@@ -23,6 +23,14 @@ abstract class Date implements JsonSerializable
     public function format(string $format): string
     {
         return (new DateTimeImmutable($this->date))->format($format);
+    }
+
+    /**
+     * @return int
+     */
+    public function timestamp(): int
+    {
+        return (new DateTimeImmutable($this->date))->getTimestamp();
     }
 
     /**

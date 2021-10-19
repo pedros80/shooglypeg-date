@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace ShooglyPeg\Date\Domain;
+namespace ShooglyPeg\Date;
 
 use DateTimeImmutable;
-use ShooglyPeg\Date\Domain\Date;
+use ShooglyPeg\Date\Date;
 
 final class DateOfBirth extends Date
 {
