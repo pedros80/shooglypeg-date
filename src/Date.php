@@ -14,7 +14,10 @@ abstract class Date implements JsonSerializable
      * @param string $date
      * @return static
      */
-    public function __construct(private string $date) {}
+    public function __construct(
+        private string $date
+    ) {
+    }
 
     /**
      * @param string $format
